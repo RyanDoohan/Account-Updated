@@ -49,6 +49,4 @@ class Account {
         }
 };
 
-
-
 #endif ACCOUNT_H_
