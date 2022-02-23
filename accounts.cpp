@@ -1,8 +1,12 @@
 #include <iostream>
 #include <string>
 
+#include "account.h"
+
 int main () {
-    std::cout << "Test";
-    
+    Account testAccount("Ryan", "BigBust");
+
+    testAccount.signIn();
+
     return 0;
 }
